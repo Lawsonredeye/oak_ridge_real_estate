@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Properties — Oakridge Real Estate</title>
+    <meta name="description"
+        content="Browse our extensive catalog of homes for sale and rent. Filter by type, location, and price.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo"><span class="logo-mark"></span> Oakridge</a>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="properties.html" class="active">Properties</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="contact.html" class="btn btn-accent btn-sm">Inquire</a>
+            </nav>
+            <button class="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+        </div>
+    </header>
+    <div class="mobile-overlay"></div>
+
+    <section class="page-hero">
+        <div class="container">
+            <h1>Our Property Listings</h1>
+            <p>Explore our complete catalog of homes for sale and rent across the country. Use the filters below to
+                narrow your search.</p>
+        </div>
+    </section>
+
+    <section class="properties-page">
+        <div class="container">
+            <div class="filter-bar">
+                <select class="filter-type">
+                    <option value="all">All Types</option>
+                    <option value="sale">For Sale</option>
+                    <option value="rent">For Rent</option>
+                </select>
+                <select class="filter-location">
+                    <option value="all">All Locations</option>
+                    <option value="ny">New York, NY</option>
+                    <option value="la">Los Angeles, CA</option>
+                    <option value="miami">Miami, FL</option>
+                    <option value="nashville">Nashville, TN</option>
+                    <option value="austin">Austin, TX</option>
+                    <option value="chicago">Chicago, IL</option>
+                </select>
+                <input type="text" class="filter-search" placeholder="Search by property name…">
+                <span class="filter-label">12 Properties</span>
+            </div>
+            <div class="card-grid">
+                <div class="property-card" data-type="sale" data-location="nashville">
+                    <div class="card-img"><img
+                            src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&q=80"
+                            alt="Sunset Valley Residence"><span class="tag">For Sale</span><button class="fav-btn"><span
+                                class="fav-icon">&#9825;</span></button></div>
+                    <div class="card-body">
+                        <h3>Sunset Valley Residence</h3>
+                        <p class="location">Nashville, TN</p>
+                        <div class="features"><span>4 Beds</span><span>3 Baths</span><span>2,400 sqft</span></div>
+                        <div class="price-row"><span class="price">$685,000</span></div>
+                    </div>
+                </div>
+                <div class="property-card" data-type="rent" data-location="austin">
+                    <div class="card-img"><img
+                            src="https://images.unsplash.com/photo-1600566753086-00f18f6b0050?w=600&q=80"
+                            alt="Metropolitan Lofts"><span class="tag rent">For Rent</span><button class="fav-btn"><span
+                                class="fav-icon">&#9825;</span></button></div>
+                    <div class="card-body">
+                        <h3>Metropolitan Lofts — Unit 4B</h3>
+                        <p class="location">Austin, TX</p>
+                        <div class="features"><span>2 Beds</span><span>2 Baths</span><span>1,150 sqft</span></div>
+                        <div class="price-row"><span class="price">$2,800/mo</span></div>
+                    </div>
+                </div>
+                <div class="property-card" data-type="sale" data-location="nashville">
+                    <div class="card-img"><img
+                            src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=600&q=80"
+                            alt="Maplewood Colonial Estate"><span class="tag">For Sale</span><button
+                            class="fav-btn"><span class="fav-icon">&#9825;</span></button></div>
+                    <div class="card-body">
+                        <h3>Maplewood Colonial Estate</h3>
+                        <p class="location">Franklin, TN</p>
+                        <div class="features"><span>5 Beds</span><span>4 Baths</span><span>3,600 sqft</span></div>
+                        <div class="price-row"><span class="price">$1,250,000</span></div>
+                    </div>
+                </div>
+                <div class="property-card" data-type="sale" data-location="nashville">
+                    <div class="card-img"><img
+                            src="https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=600&q=80"
+                            alt="Glass House Retreat"><span class="tag">For Sale</span><button class="fav-btn"><span
+                                class="fav-icon">&#9825;</span></button></div>
+                    <div class="card-body">
+                        <h3>Glass House Retreat</h3>
+                        <p class="location">Brentwood, TN</p>
+                        <div class="features"><span>3 Beds</span><span>2.5 Baths</span><span>2,100 sqft</span></div>
+                        <div class="price-row"><span class="price">$890,000</span></div>
+                    </div>
+                </div>
+                <div class="property-card" data-type="rent" data-location="chicago">
+                    <div class="card-img"><img
+                            src="https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=600&q=80"
+                            alt="Harbor View Townhome"><span class="tag rent">For Rent</span><button
+                            class="fav-btn"><span class="fav-icon">&#9825;</span></button></div>
+                    <div class="card-body">
+                        <h3>Harbor View Townhome</h3>
+                        <p class="location">Charleston, SC</p>
+                        <div class="features"><span>3 Beds</span><span>2.5 Baths</span><span>1,800 sqft</span></div>
+                        <div class="price-row"><span class="price">$3,200/mo</span></div>
+                    </div>
+                </div>
+                <div class="property-card" data-type="sale" data-location="nashville">
+                    <div class="card-img"><img
+                            src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=600&q=80"
+                            alt="Cedar Ridge Farmhouse"><span class="tag">For Sale</span><button class="fav-btn"><span
+                                class="fav-icon">&#9825;</span></button></div>
+                    <div class="card-body">
+                        <h3>Cedar Ridge Farmhouse</h3>
+                        <p class="location">Knoxville, TN</p>
+                        <div class="features"><span>4 Beds</span><span>3 Baths</span><span>2,800 sqft</span></div>
+                        <div class="price-row"><span class="price">$575,000</span></div>
+                    </div>
+                </div>
+                <div class="property-card" data-type="sale" data-location="la">
+                    <div class="card-img"><img
+                            src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=600&q=80"
+                            alt="Palm Grove Mediterranean"><span class="tag">For Sale</span><button
+                            class="fav-btn"><span class="fav-icon">&#9825;</span></button></div>
+                    <div class="card-body">
+                        <h3>Palm Grove Mediterranean</h3>
+                        <p class="location">Los Angeles, CA</p>
+                        <div class="features"><span>4 Beds</span><span>3.5 Baths</span><span>3,100 sqft</span></div>
+                        <div class="price-row"><span class="price">$1,450,000</span></div>
+                    </div>
+                </div>
+                <div class="property-card" data-type="rent" data-location="ny">
+                    <div class="card-img"><img
+                            src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=600&q=80"
+                            alt="Park Avenue Studio"><span class="tag rent">For Rent</span><button class="fav-btn"><span
+                                class="fav-icon">&#9825;</span></button></div>
+                    <div class="card-body">
+                        <h3>Park Avenue Studio</h3>
+                        <p class="location">New York, NY</p>
+                        <div class="features"><span>1 Bed</span><span>1 Bath</span><span>650 sqft</span></div>
+                        <div class="price-row"><span class="price">$3,800/mo</span></div>
+                    </div>
+                </div>
+                <div class="property-card" data-type="sale" data-location="miami">
+                    <div class="card-img"><img
+                            src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=600&q=80"
+                            alt="Bayshore Waterfront Estate"><span class="tag">For Sale</span><button
+                            class="fav-btn"><span class="fav-icon">&#9825;</span></button></div>
+                    <div class="card-body">
+                        <h3>Bayshore Waterfront Estate</h3>
+                        <p class="location">Miami, FL</p>
+                        <div class="features"><span>5 Beds</span><span>4.5 Baths</span><span>4,800 sqft</span></div>
+                        <div class="price-row"><span class="price">$2,950,000</span></div>
+                    </div>
+                </div>
+                <div class="property-card" data-type="rent" data-location="chicago">
+                    <div class="card-img"><img
+                            src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=600&q=80"
+                            alt="River North Loft"><span class="tag rent">For Rent</span><button class="fav-btn"><span
+                                class="fav-icon">&#9825;</span></button></div>
+                    <div class="card-body">
+                        <h3>River North Industrial Loft</h3>
+                        <p class="location">Chicago, IL</p>
+                        <div class="features"><span>1 Bed</span><span>1 Bath</span><span>900 sqft</span></div>
+                        <div class="price-row"><span class="price">$2,400/mo</span></div>
+                    </div>
+                </div>
+                <div class="property-card" data-type="sale" data-location="ny">
+                    <div class="card-img"><img
+                            src="https://images.unsplash.com/photo-1600585154084-4e5fe7c39198?w=600&q=80"
+                            alt="Hudson Valley Retreat"><span class="tag">For Sale</span><button class="fav-btn"><span
+                                class="fav-icon">&#9825;</span></button></div>
+                    <div class="card-body">
+                        <h3>Hudson Valley Retreat</h3>
+                        <p class="location">Rhinebeck, NY</p>
+                        <div class="features"><span>4 Beds</span><span>3 Baths</span><span>2,900 sqft</span></div>
+                        <div class="price-row"><span class="price">$975,000</span></div>
+                    </div>
+                </div>
+                <div class="property-card" data-type="sale" data-location="austin">
+                    <div class="card-img"><img
+                            src="https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?w=600&q=80"
+                            alt="Hill Country Ranch"><span class="tag">For Sale</span><button class="fav-btn"><span
+                                class="fav-icon">&#9825;</span></button></div>
+                    <div class="card-body">
+                        <h3>Hill Country Ranch House</h3>
+                        <p class="location">Dripping Springs, TX</p>
+                        <div class="features"><span>3 Beds</span><span>2 Baths</span><span>2,200 sqft</span></div>
+                        <div class="price-row"><span class="price">$525,000</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <h4>Oakridge Real Estate</h4>
+                    <p>Your trusted partner in finding the perfect home.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4><a href="index.html">Home</a><a href="properties.html">Properties</a><a
+                        href="about.html">About Us</a><a href="contact.html">Contact</a>
+                </div>
+                <div class="footer-links">
+                    <h4>Property Types</h4><a href="properties.html">Single Family</a><a
+                        href="properties.html">Condominiums</a><a href="properties.html">Luxury Estates</a><a
+                        href="properties.html">Townhouses</a>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Stay Updated</h4>
+                    <p style="font-size:0.85rem;margin-bottom:14px;line-height:1.5;">Get the latest listings and market
+                        insights delivered to your inbox.</p>
+                    <form class="newsletter-form"><input type="email" placeholder="Your email address" required><button
+                            type="submit" class="btn">Subscribe</button></form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year">2026</span> Oakridge Real Estate. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
