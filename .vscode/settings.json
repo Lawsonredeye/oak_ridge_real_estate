@@ -1,0 +1,13 @@
+{
+    "java.jdt.ls.java.home": "/home/lawson/.local/share/mise/installs/java/corretto-25.0.2.10.1",
+    "java.import.gradle.java.home": "/home/lawson/.local/share/mise/installs/java/corretto-25.0.2.10.1",
+    "go.goroot": "/home/lawson/.local/share/mise/installs/go/1.25.11",
+    "debug.javascript.defaultRuntimeExecutable": {
+        "pwa-node": "/home/lawson/.local/share/mise/shims/node"
+    },
+    "python.defaultInterpreterPath": "/home/lawson/.local/share/mise/installs/python/3.13/bin/python",
+    "go.alternateTools": {
+        "go": "/home/lawson/.local/share/mise/shims/go",
+        "gopls": "/home/lawson/.local/share/mise/shims/gopls"
+    }
+}
